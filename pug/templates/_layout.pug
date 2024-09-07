@@ -1,0 +1,22 @@
+mjml
+    //- Head
+    mj-head
+        mj-title 
+        mj-raw.
+            <meta name='color-scheme' content='light'/>
+            <meta name='supported-color-schemes' content='light'/>
+            <meta name="format-detection" content="telephone=no"/>
+            <meta name="format-detection" content="date=no"/>
+            <meta name="format-detection" content="address=no"/>
+            <meta name="format-detection" content="email=no"/>
+        mj-attributes
+            mj-all(font-family='Arial, Helvetica, sans-serif')/
+            mj-text(font-size='16px' font-weight='300' line-height='20px' color="#2D3748")
+        mj-breakpoint(width='480px')
+    //- Body
+    mj-body(background-color='#fcfcfc')
+        //- Header
+        block header
+        //- footer Post
+            block footer
+            include ../includes/_footer
